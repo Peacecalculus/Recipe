@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Recipe Webpage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <ul class="main_logo">
+                <li><a href="#"><i class="fa-solid fa-bowl-food"></i></a>Tasty Recipe</li>
+            </ul>
+            <nav aria-label="Main Navigation">
+                <ul class="main_link">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hero_section">
+                <h1>Welcome to Tasty Recipe</h1>
+                <p><strong>Welcome to Tasty Recipe, your go-to destination for a wide range of mouth-watering recipes.</strong>
+                    Whether you're a home cook, a food enthusiast, or a professional chef, discover and create culinary delights with our detailed recipe listings and cooking instructions.
+                </p>
+            </div>
+            
+            <div class="hero_image">
+                <picture>
+                    <source srcset="https://images.unsplash.com/photo-1466637574441-749b8f19452f?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" type="image/webp">
+                    <img src="/images/hero_section.jpg" alt="A hero section image showing various recipes" class="hero_image" width="100%">
+                </picture>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <article class="featured_recipe">
+            <div class="recipe_details">
+                <h1>Featured Recipe: Spaghetti Carbonara</h1>
+                <p>Discover the classic Italian pasta dish made with eggs, cheese, pancetta, and pepper. Perfect for a quick and delicious meal!</p>
+                <p><strong>Preparation Time: </strong><time datetime="PT20M"><em>20 minutes</em></time></p>
+                <p><strong>Cooking Time: </strong><time datetime="PT15M"><em>15 minutes</em></time></p>
+                <p><strong>Servings:</strong> <em>2</em></p>
+                <p><strong>Difficulty:</strong> <em>Easy</em></p> 
+            </div>
+            <div class="recipe_image">
+                <picture>
+                    <source srcset="https://images.unsplash.com/photo-1574969903809-3f7a1668ceb0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" type="image/webp">
+                    <img src="/images/Spaghetti Carbonara.jpg" alt="Image of Spaghetti Carbonara" width="600" class="recipe_image">
+                </picture>
+            </div>
+                <h2>Ingredients:</h2>
+                <ul>
+                    <li>200g spaghetti</li>
+                    <li>100g pancetta</li>
+                    <li>2 large eggs</li>
+                    <li>50g grated Parmesan cheese</li>
+                    <li>Salt and pepper to taste</li>
+                </ul>
+                <h2>Instructions:</h2>
+                <ol>
+                    <li>Cook the spaghetti according to package instructions.</li>
+                    <li>In a pan, cook the pancetta until crispy.</li>
+                    <li>Beat the eggs and mix with cheese, salt, and pepper.</li>
+                    <li>Combine spaghetti with pancetta and remove from heat.</li>
+                    <li>Add egg mixture quickly to create a creamy sauce.</li>
+                    <li>Serve immediately with extra cheese on top.</li>
+                </ol>
+                <h2>Tips:</h2>
+                <ul>
+                    <li>Use fresh eggs for the best flavor.</li>
+                    <li>Make sure to remove the pan from heat before adding the egg mixture to avoid scrambling.</li>
+                    <li>Adjust the amount of cheese and pepper according to your taste.</li>
+                </ul>
+                <h2>Nutrition Information:</h2>
+                <p>Calories: 600 per serving</p>
+            <section class="recipe_sidebar">
+                <h2>Featured Video</h2>
+                <p>Watch our step-by-step tutorial on how to make the perfect Spaghetti Carbonara!</p>
+                <div class="video_container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wtZ_cDHWr9I" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </section>
+        </article>
+       
+        <section class="recipe_list">
+            <h1>More Recipes</h1>
+            <ul class="recipe_items">
+                <li>
+                    <article>
+                        <h2><a href="#">Chicken Curry</a></h2>
+                        <p>A flavorful chicken curry with spices and coconut milk.</p>
+                    <div class="recipe_image">
+                        <picture>
+                            <source srcset="https://images.unsplash.com/photo-1708782344490-9026aaa5eec7?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" type="image/webp">
+                            <img src="/images/chicken curry.jpg" alt="Image of Chicken Curry" width="600" class="recipe_image">
+                        </picture>
+                     </div>
+                        <div class="recipe_details">
+                            <p>A comforting and flavorful curry with tender chicken pieces simmered in a rich, aromatic sauce. Perfect with rice or naan!</p>
+                            <p><strong>Preparation Time: </strong><time datetime="PT25M"><em>25 minutes</em></time></p>
+                            <p><strong>Cooking Time: </strong><time datetime="PT30M"><em>30 minutes</em></time></p>
+                            <p><strong>Servings:</strong> <em>4</em></p>
+                            <p><strong>Difficulty:</strong> <em>Medium</em></p>
+                        </div>
+                            <h2>Ingredients:</h2>
+                            <ul>
+                                <li>500g boneless, skinless chicken breast or thighs, cut into cubes</li>
+                                <li>1 tbsp vegetable oil</li>
+                                <li>1 large onion, chopped</li>
+                                <li>2 cloves garlic, minced</li>
+                                <li>1 tbsp grated ginger</li>
+                                <li>2 tbsp curry powder</li>
+                                <li>1 tsp turmeric</li>
+                                <li>1 can (400ml) coconut milk</li>
+                                <li>1 cup chicken broth</li>
+                                <li>Salt and pepper to taste</li>
+                            </ul>
+                            <h2>Instructions:</h2>
+                            <ol>
+                                <li>Heat oil in a large pot or pan over medium-high heat. Add chicken and cook until browned on all sides. Remove from pot.</li>
+                                <li>Add onion to the pot and cook until soft and translucent.</li>
+                                <li>Stir in garlic, ginger, curry powder, and turmeric. Cook for 1 minute until fragrant.</li>
+                                <li>Pour in chicken broth and scrape up any browned bits from the bottom of the pot.</li>
+                                <li>Add the cooked chicken and coconut milk. Bring to a simmer, then reduce heat and cook for 20 minutes, or until chicken is cooked through and sauce has thickened.</li>
+                                <li>Season with salt and pepper to taste.</li>
+                            </ol>
+                            <h2>Tips:</h2>
+                            <ul>
+                                <li>For extra flavor, you can marinate the chicken in a little yogurt and curry powder before cooking.</li>
+                                <li>Adjust the spice level by adding a pinch of chili flakes or a finely chopped chili pepper with the garlic and ginger.</li>
+                                <li>Serve with basmati rice or warm naan bread.</li>
+                            </ul>
+                            <h2>Nutrition Information:</h2>
+                            <p>Calories: 450 per serving</p>
+                
+                        <section class="recipe_sidebar">
+                            <h2>Featured Video</h2>
+                            <p>Watch our step-by-step tutorial on how to make the perfect Chicken Curry!</p>
+                            <div class="video_container">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/jwyge5daKUQ?si=pANKD4BdSrvFKyZ7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                        </section>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <section class="recipe_search">
+            <h2>Search Recipes</h2>
+            <form action="#" method="get">
+                <input type="text" placeholder="Search for recipes..." name="search" required>
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+            </form>
+        </section>
+
+        <section class="recipe_popular">
+            <h2>Popular Recipes</h2>
+            <ul>
+                <li><a href="#">Pasta Primavera</a></li>
+                <li><a href="#">Beef Stroganoff</a></li>
+                <li><a href="#">Caesar Salad</a></li>
+                <li><a href="#">Apple Pie</a></li>
+            </ul>
+        </section>
+
+        <section class="recipe_tags">
+            <h2>Recipe Tags</h2>
+            <ul>
+                <li><a href="#">Quick</a></li>
+                <li><a href="#">Healthy</a></li>
+                <li><a href="#">Vegetarian</a></li>
+                <li><a href="#">Gluten-Free</a></li>
+                <li><a href="#">Dessert</a></li>
+            </ul>
+        </section>
+
+        <section class="recipe_categories">
+            <h2>Recipe Categories</h2>
+            <ul>
+                <li><a href="#">Appetizers</a></li>
+                <li><a href="#">Main Courses</a></li>
+                <li><a href="#">Desserts</a></li>
+                <li><a href="#">Vegetarian</a></li>
+                <li><a href="#">Vegan</a></li>
+                <li><a href="#">Gluten-Free</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="container">
+            <article class="recipe_info">
+                <div class="info_1">
+                    <h2>About Us</h2>
+                    <p>Learn more about our mission and the team behind Tasty Recipe on our <a href="about.html">About Page</a>.</p>
+                </div>
+                <div class="info_2">
+                    <h2>Contact Us</h2>
+                    <p>Have questions or suggestions? Reach out to us through our <a href="contact.html">Contact Page</a>.</p>
+                </div>
+            </article>
+        
+
+        <section class="recipe_newsletter">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Get the latest recipes and cooking tips delivered to your inbox.</p>
+            <form action="#" method="post">
+                <input type="email" placeholder="Enter your email" name="email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+            <h2>Follow Us</h2>
+            <p>Stay updated with our latest recipes and cooking tips by following us on social media.</p>
+            <ul aria-label="Social Media Links" class="social_media">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </section>
+
+        <div class="footer_links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer_content">
+            <p>&copy; <u>2025 Tasty Recipe.</u> All rights reserved.</p>
+            <p>Designed by Ezekiel Emem Peace</p>
+            <p>Student ID: ALT/SOE/025/3141</p>
+        </div>
+        <div class="footer_bottom">
+            <p>Powered by <a href="https://www.altschoolafrica.com">ALTSCHOOL AFRICA</a></p>
+        </div>
+    </footer>
+</body>
+</html>
